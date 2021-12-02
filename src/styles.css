@@ -1,0 +1,76 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+        font-family: Porton;
+        src: url(assets/porton/Porton\ -\ Bold.otf) format("opentype");
+}
+@font-face {
+        font-family: RevxBold;
+        src: url(assets/revx-neue-10008162/RevxNeue\ Bold.ttf) format("opentype");
+}
+@font-face {
+        font-family: RevxBlack;
+        src: url(assets/revx-neue-10008162/RevxNeue\ Black.ttf) format("opentype");
+}
+@font-face {
+        font-family: RevxRegular;
+        src: url(assets/revx-neue-10008162/RevxNeue\ Regular.ttf) format("opentype");
+}
+@font-face {
+        font-family: RevxMedium;
+        src: url(assets/revx-neue-10008162/RevxNeue\ Medium.ttf) format("opentype");
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        color: var(--colorBlancoPrimario);
+        box-sizing: border-box;
+}
+
+:root {
+        /* COLORES */
+        --colorRojoPrimario: #CE0037;
+        --colorRojoGradiente: linear-gradient(180deg, #CE0037 0%, #560505 100%);
+        --colorAzulPrimario: #123D66;
+        --colorAzulPrimarioGradient: linear-gradient(180deg, #123D66 0%, #102A42 100%);
+        --colorAzulSecundario: #1D2831;
+        --colorAzulSecundarioGradient: linear-gradient(180deg, #1D2831 0%, #0A0E12 100%);
+        --colorAzulOscuroPrimario: #092641;
+        --colorAzulOscuroGradient: linear-gradient(180deg, #1E4161 0%, #101E2C 100%);
+        --colorGrisPrimario: #CAD2DA;
+        --colorGrisGradient: linear-gradient(180deg, #CAD2DA 0%, #6D7781 100%);
+        --colorGrisFormularios: #9A9A9A;
+        --colorNegro: #061014;
+        --colorBlancoPrimario: #FFFFFF;
+        --colorBlancoGradient:  linear-gradient(179.84deg, #FFFFFF 0.14%, #D6D6D6 84.23%);
+        
+        /* SOMBRAS */
+        --sombraSoft: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        --sombraMedium: 0px 4px 8px rgba(0, 0, 0, 0.15);
+        --sombraStrong:0px 8px 16px rgba(0, 0, 0, 0.2);
+        --sombraStrongPlus: 0px 8px 11px rgba(0, 0, 0, 0.4);
+
+        /* TEXTOS */
+        --sizeGrande: 96px;
+        --sizeDisplay: 90px;
+        --sizeTitulares: 64px;
+        --sizeDesktopHeading1: 48px;
+        --sizeTitulos: 45px;
+        --sizeTitulosHeader: 42px;
+        --sizeDesktopHeading2: 40px;
+        --sizeNames: 32px;
+        --sizeDesktopHeading3: 32px;
+        --sizeDesktopHeading4: 24px;
+        --sizeCommonSubtitle: 20px;
+        --sizeCommonBody1: 20px;
+        --sizeCommonBody2: 16px;
+        --sizeCommonLabel: 16px;
+        --sizeCommonCaptionDefault: 14px;
+
+        /* FUENTES */
+        --fontTitulos: Porton;
+        --fontRevxBold: RevxBold;
+        --fontRevxMedium: RevxMedium;
+        --fontRevxRegular: RevxRegular;
+        --fontRevxBlack: RevxBlack;
+}

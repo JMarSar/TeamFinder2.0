@@ -1,0 +1,29 @@
+.PadreFoter{
+    position: fixed;
+    bottom: 0%;
+    height: 2.5vw;
+    background-color:#1D2831;
+    width: 100vw;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    font-family: var(--fontRevxRegular);
+}
+.ContenidoFoter{
+    height: 1.2vw;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+.ContenidoFoter div{
+    color: #FFFFFF;   
+}
+.Marca{
+    color: #FFFFFF;
+    border-bottom:solid 1px #FFFFFF;
+}
+.Marca:hover{
+    cursor: pointer;
+}
